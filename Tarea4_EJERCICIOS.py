@@ -15,7 +15,8 @@ cali1 = 10
 cali2 = 7
 cali3 = 4
 
-promedio = (cali1 * 0.15) + (cali2 *0.35) + (cali3*0.50)
+calis = (cali1 * 0.15) + (cali2 *0.35) + (cali3*0.50)
+promedio =(cali1 + cali2 + cali3) /3
 print('El promedio de las calificaciones es: ', promedio)
 
 #La siguiente matriz debe cumplir que el 4to valor de cada fila
