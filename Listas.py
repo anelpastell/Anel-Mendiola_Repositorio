@@ -1,33 +1,33 @@
- # LISTAS
- # sirven para almacenar múltiples elementos
+# LISTAS
+# sirven para almacenar múltiples elementos
 
- comida = ['naranja', 'pastel', 'cafe', 'helado', 'pescado', 'camaron', 2345, 456.823, False]
- print(comida)
- # los elementos se cuentan del 0
- # si quieremos acceder al elemento 0:
+comida = ['naranja', 'pastel', 'cafe', 'helado', 'pescado', 'camaron', 2345, 456.823, False]
+print(comida)
+# los elementos se cuentan del 0
+# si quieremos acceder al elemento 0:
 
- print(comida[0]) # imprime naranja
- print(comida[1]) # imprime pastel
- # print(comida[4]) # marca que estamos fuera de rango porque no hay elemento 4
+print(comida[0]) # imprime naranja
+print(comida[1]) # imprime pastel
+# print(comida[4]) # marca que estamos fuera de rango porque no hay elemento 4
 
- #los elementos de una lista siempre se pueden cambiar y actualizar
+#los elementos de una lista siempre se pueden cambiar y actualizar
 
- comida[0] = 'quesadilla'
- print(comida[0]) # si cambió!!!
+comida[0] = 'quesadilla'
+print(comida[0]) # si cambió!!!
 
 # FUNCIÓN APPEND
 #  comida.append('camaron') # agrega elementos a la lista
 #  comida.remove('helado') # quita elementos de la lista
 #  comida.pop() # elimina el último elemento de la lista
- # comida.insert(4, 'camaron') # agrega un elemento
-                         # primero pones la posición y después el elemento
+# comida.insert(4, 'camaron') # agrega un elemento
+                        # primero pones la posición y después el elemento
 # comida.sort() # acomoda en orden alafbético
 # comida.clear() # vacia la lista
 
 # las listas también pueden almacenar números enteros, flotantes y boleanos
 #### se agregaron otros datos je
- for x in comida:
-     print(x)
+for x in comida:
+    print(x)
 # el bucle for imprime todos los elementos de la lista comida
 
 # LISTAS 2D/ MULTIDIMENSIONALES
